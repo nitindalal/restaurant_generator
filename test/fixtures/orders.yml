@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  sla: 1.5
+  cart_id: 1
+
+two:
+  sla: 1.5
+  cart_id: 1
