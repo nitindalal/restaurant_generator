@@ -1,13 +1,7 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  item_name: MyString
-  price: 1.5
-  delivery_time: 1.5
-  sensitivity_cd: 1
+  restaurant_id: 1
 
 two:
-  item_name: MyString
-  price: 1.5
-  delivery_time: 1.5
-  sensitivity_cd: 1
+  restaurant_id: 1

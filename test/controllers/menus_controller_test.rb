@@ -18,7 +18,7 @@ class MenusControllerTest < ActionController::TestCase
 
   test "should create menu" do
     assert_difference('Menu.count') do
-      post :create, menu: { delivery_time: @menu.delivery_time, item_name: @menu.item_name, price: @menu.price, sensitivity_cd: @menu.sensitivity_cd }
+      post :create, menu: { restaurant_id: @menu.restaurant_id }
     end
 
     assert_redirected_to menu_path(assigns(:menu))
@@ -35,7 +35,7 @@ class MenusControllerTest < ActionController::TestCase
   end
 
   test "should update menu" do
-    patch :update, id: @menu, menu: { delivery_time: @menu.delivery_time, item_name: @menu.item_name, price: @menu.price, sensitivity_cd: @menu.sensitivity_cd }
+    patch :update, id: @menu, menu: { restaurant_id: @menu.restaurant_id }
     assert_redirected_to menu_path(assigns(:menu))
   end
 
